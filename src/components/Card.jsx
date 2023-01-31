@@ -17,9 +17,8 @@ import { Autoplay, EffectFade } from "swiper";
 
 export default function Banner() {
   return (
-    <div className="w-[90%]">
+    <div className="lg:w-[90%] xl:w-[90%] md:w-[100%] ">
       <Swiper
-      
         effect={"fade"}
         spaceBetween={30}
         centeredSlides={true}
@@ -31,7 +30,7 @@ export default function Banner() {
         className="mySwiper rounded-xl "
       >
         <SwiperSlide>
-          <img src={puss} className=" object-cover " alt="Dashboard"/>
+          <img src={puss} className=" object-cover " alt="Dashboard" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={mega} className="object-cover" alt="Dashboard" />
